@@ -11,6 +11,3 @@ console.log(iceCreamFlavours[iceCreamFlavours.length - 1]);
 
 console.log(iceCreamFlavours.length);
 
-console.log("Bob" || " Marley")
-
-console.log(5 % "3")
