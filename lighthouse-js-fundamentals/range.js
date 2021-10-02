@@ -30,7 +30,7 @@ console.log(range(0, 10, 2));
 console.log(range(10, 30, 5));
 console.log(range(-5, 2, 3));
 
-
+/*
 function lastIndexOf(range, index) {
     let last = -1;
     let y = 0;
@@ -47,6 +47,7 @@ console.log(lastIndexOf([0, 1, 4, 1, 2], 2));
 console.log(lastIndexOf([0, 1, 4, 1, 2], 3));
 console.log(lastIndexOf([5, 5, 5], 5));
 console.log(lastIndexOf([], 3));
+*/
 /*
 console.log(lastIndexOf([0, 1, 4, 1, 2], 1), "=?", 3);
 console.log(lastIndexOf([0, 1, 4, 1, 2], 2), "=?", 4);

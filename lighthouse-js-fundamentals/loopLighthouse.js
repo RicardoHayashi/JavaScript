@@ -18,7 +18,7 @@ const loopyLighthouse = function (range, multiples, words) {
     let start = range[0];
     let end = range[1];
     for (let i = start; i <= end; i++) {
-        if (i % multiples[0] === 0 && i % multiples[1] === 0)
+        if (i % (multiples[0] *  multiples[1]) === 0)
             result.push(words[0] + words[1])
         else if (i % multiples[0] === 0)
             result.push(words[0])
@@ -31,6 +31,7 @@ const loopyLighthouse = function (range, multiples, words) {
 }
 loopyLighthouse([15, 90], [2, 5], ["Batty", "Beacon"]);
 
+/*
 function concat(arg1, arg2) {
     let result = [];
     for (let x of arg1)
@@ -44,3 +45,4 @@ console.log(concat([1, 2, 3], [4, 5, 6]));
 console.log(concat([0, 3, 1], [9, 7, 2]));
 console.log(concat([], [9, 7, 2]));
 console.log(concat([5, 10], []));
+*/
